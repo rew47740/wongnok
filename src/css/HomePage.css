@@ -1,0 +1,101 @@
+.body,h1,h2,h3,h4,h5 {
+
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.picture{
+  width: 90%;
+}
+
+.w3-half img{
+  margin-bottom:30px;
+  margin-top:16px;
+  margin-left: 1%;
+  opacity:1;cursor:pointer;
+}
+/* .w3-half img:hover{
+  opacity:1
+} */
+
+#mySidebar{
+  width: 20%;
+  background-color: #616161;
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+}
+
+.w3-round{
+  width:50px;
+  border:5px solid coral
+}
+
+.firstCha{
+  font-family: "Poppins", sans-serif;
+  color: coral;
+  font-size: 70px;
+}
+
+.smallCha{
+  color: coral;
+  font-family: "Poppins", sans-serif;
+}
+
+.container{
+  position: relative;
+  color: #ffa193;
+}
+
+.container:hover .picture {
+  filter: brightness(40%)
+}
+
+.container:hover .roomLabel {
+  opacity: 1;
+}
+
+.roomLabel{
+  font-family: 'Kanit', sans-serif;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 10%;
+  font-size: 25px;
+}
+
+.roomLabel1{
+  font-family: 'Kanit', sans-serif;
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 42%;
+  left: 20%;
+  font-size: 25px;
+}
+
+.container:hover .roomLabel1 {
+  opacity: 1;
+}     
+.w3-jumbo{
+  color: #616161
+}
+
+#container{
+  margin-left: 21%;
+  margin-top: 3%;
+}
+
+.logo{
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+#navLabel{
+  color: white;
+  font-family: 'Kanit', sans-serif;
+}
+
+.setContact{
+  margin-top: 60%;
+}

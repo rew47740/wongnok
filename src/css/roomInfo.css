@@ -1,0 +1,33 @@
+.headLabel{
+    font-family: 'Kanit', sans-serif;
+}
+
+.description{
+    font-family: 'Kanit', sans-serif;
+}
+
+#roomTLB{
+    font-family: 'Kanit', sans-serif;
+    color: #616161;
+    font-size: 50px;
+  }
+  
+  #priceLB{
+    font-family: 'Kanit', sans-serif;
+    color: coral;
+    font-size: 30px
+  }
+
+  #imgInfo{
+    width: 95%;
+  }
+
+  .ant-carousel .slick-slide {
+    line-height: 1px;
+    width: 50px;
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  
