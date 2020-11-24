@@ -29,6 +29,6 @@ In the project directory, you can run:
 `npm i` เพื่อ install
 `npm start` เพื่อ run program
 
-username:admin@hotmail.com
-password:adminadmin
+`username:admin@hotmail.com`
+`password:adminadmin`
 ```
