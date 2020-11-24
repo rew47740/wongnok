@@ -28,7 +28,7 @@ describe('HomePage Booking', function(){
         cy.get('input[id="phoneNum"]').type("0891115491")
         // <input type="bookingId" name="bookingId" class="form-control " id="bookingId" placeholder="Enter Booking Id" style="width: 10cm; margin-left: 10%; margin-top: 3%;" value="">
         // <input type="number" name="phoneNum" class="form-control " id="phoneNum" placeholder="Enter Phone Number" style="width: 10cm; margin-left: 10%;" value="">
-        cy.get('input[id="bookingId"]').type("2658")
+        cy.get('input[id="bookingId"]').type("1101")
         cy.get('button[class="ant-btn ant-btn-primary"]').click({ multiple: true })
         // <button style="margin-top: 3%; margin-left: 40%; font-family: Kanit, sans-serif;" type="button" class="ant-btn ant-btn-primary"><span>ค้นหา</span></button>
     })
