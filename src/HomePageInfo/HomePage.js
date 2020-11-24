@@ -210,7 +210,7 @@ class HomePage extends React.Component {
                     <h1><b id="homePage" class="firstCha">W</b><b class="w3-jumbo" style={{ fontFamily: "Poppins, sans-serif" }}>ong<b class="firstCha">N</b>ok</b></h1>
                     <div style={{ marginTop: "4%" }}>
                         <b style={{ fontFamily: "Kanit, sans-serif", fontSize: "25px", marginRight: "3%", color: "#616161" }} >ค้นหาห้องพัก</b>
-                        <RangePicker disabledDate={disabledDate}
+                        <RangePicker  className="ant-picker-cell-inner" disabledDate={disabledDate}
                             disabledTime={disabledRangeTime} onChange={this.onChangeDate} format={dateFormat} />
                        
                         <Button style={{ marginLeft: "2%", fontFamily: "Kanit, sans-serif" }} onClick={this.onSubmit}>ค้นหาห้องพัก</Button>

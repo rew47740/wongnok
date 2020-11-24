@@ -1,0 +1,9 @@
+{
+    "httpStatusCode": {
+        "success": 200
+    },
+    "status0000": {
+        "code" : "0000",
+        "statusDesc" : "Success"
+    }
+}

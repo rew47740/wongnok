@@ -71,7 +71,7 @@ class ConfirmInfo extends React.Component {
             <img style={{ width: '5%', marginLeft: '22%', marginRight: '3%', marginBottom: '2%' }} src={krungsri} /><span style={{ fontFamily: "Kanit, sans-serif" }}>ธนาคารกรุงศรีอยุธยา ชื่อบัญชี : พิชาญุตย์ แมนซาโน : 567-1-50878-1</span>
           </div>
           <div style={{ marginTop: '1%' }}>
-            <Button onClick={this.showModal} type="primary" style={{ marginLeft: '30%', marginRight: '3%', fontFamily: "Kanit, sans-serif" }} >อัพโหลดสลิปโอนเงินค่ามัดจำ</Button>
+            <Button className="add-receipt" onClick={this.showModal} type="primary" style={{ marginLeft: '30%', marginRight: '3%', fontFamily: "Kanit, sans-serif" }} >อัพโหลดสลิปโอนเงินค่ามัดจำ</Button>
             <Button onClick={this.onClick} style={{ marginRight: '3%', fontFamily: "Kanit, sans-serif" }} >กลับไปยังหน้าแรก</Button>
           </div>
         </Card>
