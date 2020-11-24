@@ -1,8 +1,3 @@
-const { Item } = require("semantic-ui-react")
-const date ={
-    "dateStart" : "24-11-2020",
-    "dateEnd" : "25-11-2020"
-}
 const url = "http://localhost:3000/"
 const urlConfirm = "http://localhost:3000/ComfirmInfo"
 // let statusCode = require("../../../fixtures/expected_status.json")
@@ -23,7 +18,7 @@ describe('HomePage Booking', function(){
         cy.visit(url)
         // <span class="ant-picker-cell-inner ant-calendar-picker" 
         cy.get('[class="ant-picker-cell-inner ant-calendar-picker"]').click()
-        cy.get('[class="ui button"]').click({force: true})
+        cy.get('button[class="ui button"]').click({force: true})
     })
     it ('Test Confirm Info ', function(){
         // <button type="button" class="" 
